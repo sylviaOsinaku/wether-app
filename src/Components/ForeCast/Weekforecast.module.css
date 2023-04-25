@@ -1,0 +1,31 @@
+.weekly-header {
+  margin-top: 1.2em;
+}
+
+.weekely-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  margin-top: 1.5em;
+}
+
+.week-temp-wrapper {
+  color: #fff;
+  background-color: #CE8CA5;
+  padding: .5em 1em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.week-temp-wrapper h4 {
+  border-bottom: 1px solid whitesmoke;
+}
+
+@media (max-width:475px) {
+  .weekely-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

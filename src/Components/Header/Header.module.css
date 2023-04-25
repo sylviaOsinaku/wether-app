@@ -1,0 +1,23 @@
+.nav {
+  position: fixed;
+  z-index: 999;
+  background-color: #f3fef3;
+  width: 100%;
+  top: 0;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: .8em 0em;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+
+@media (max-width:475px) {
+  .nav-wrapper {
+    display: none;
+  }
+}

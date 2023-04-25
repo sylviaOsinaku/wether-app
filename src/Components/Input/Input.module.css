@@ -1,0 +1,14 @@
+.form-wrapper input {
+  width: 300px;
+  border: none;
+  outline: none;
+  padding: 1em .5em;
+  background-color: rgba(10, 10, 10, 0.2);
+  border-radius: 10px;
+  position: relative;
+}
+
+.error-message {
+  position: absolute;
+  top: 50px;
+}

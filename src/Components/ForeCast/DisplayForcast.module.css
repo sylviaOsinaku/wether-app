@@ -1,0 +1,32 @@
+.main-wrapper {
+  margin-top: 1.2em;
+}
+
+.stats-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats-wrapper>div {
+  gap: 1em;
+  display: flex;
+  color: gray;
+}
+
+.forecast {
+  background-color: indigo;
+  color: #fff;
+  padding: .8em 1em;
+  border-radius: 10px;
+}
+
+@media (max-width:475px) {
+
+  .stats-wrapper,
+  .stats-wrapper>div {
+    flex-direction: column;
+    align-items: start;
+  }
+
+}

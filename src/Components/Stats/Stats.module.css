@@ -1,0 +1,22 @@
+.stats-container {
+  /* margin-top: 2em; */
+  padding: 2em 1em;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #CE8CA5;
+}
+
+.stats-wrapper {
+  position: fixed;
+  top: 100px;
+
+}
+
+
+@media (max-width:975px) {
+  .stats-wrapper {
+    position: relative;
+    width: 100%;
+    padding: 0em .5em;
+  }
+}

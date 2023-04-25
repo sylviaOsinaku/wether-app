@@ -1,0 +1,26 @@
+.notify-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.location {
+  font-size: .85rem;
+}
+
+.svg-wrapper {
+  background-color: rgba(10, 10, 10, 0.2);
+  padding: 1em;
+  color: black;
+  border-radius: 50%;
+}
+
+.location-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+/* @media (max-width:475px) {
+  .nav-wrapper
+} */
